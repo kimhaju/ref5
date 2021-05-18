@@ -57,8 +57,8 @@ public class UserServiceTest {
 		
 		user = userService.getUser("testUserId");
 
-		//==> console 확占쏙옙
-		//System.out.println(user);
+		
+		System.out.println(user);
 		
 		//==> API 확占쏙옙
 		Assert.assertEquals("testUserId", user.getUserId());
