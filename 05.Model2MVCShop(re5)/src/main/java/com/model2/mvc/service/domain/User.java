@@ -3,7 +3,7 @@ package com.model2.mvc.service.domain;
 import java.sql.Date;
 
 
-//==>È¸¿øÁ¤º¸¸¦ ¸ğµ¨¸µ(Ãß»óÈ­/Ä¸½¶È­)ÇÑ Bean
+//==>È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ğµ¨¸ï¿½(ï¿½ß»ï¿½È­/Ä¸ï¿½ï¿½È­)ï¿½ï¿½ Bean
 public class User {
 	
 	///Field
@@ -16,7 +16,7 @@ public class User {
 	private String addr;
 	private String email;
 	private Date regDate;
-	/////////////// EL Àû¿ë À§ÇØ Ãß°¡µÈ Field ///////////
+	/////////////// EL ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ Field ///////////
 	private String phone1;
 	private String phone2;
 	private String phone3;
@@ -63,7 +63,7 @@ public class User {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
-		/////////////// EL Àû¿ë À§ÇØ Ãß°¡ ///////////
+		/////////////// EL íƒœê·¸ë¥¼ ìœ„í•´ì„œ ì¶”ê°€ 
 		if(phone != null && phone.length() !=0 ){
 			phone1 = phone.split("-")[0];
 			phone2 = phone.split("-")[1];
@@ -88,7 +88,7 @@ public class User {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
-	/////////////// EL Àû¿ë À§ÇØ Ãß°¡µÈ getter Method ///////////
+	/////////////// ELì„ ìœ„í•œ  getter Method ///////////
 	public String getPhone1() {
 		return phone1;
 	}

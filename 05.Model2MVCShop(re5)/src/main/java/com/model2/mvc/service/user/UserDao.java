@@ -21,7 +21,7 @@ public interface UserDao {
 	// UPDATE
 	public void updateUser(User user) throws Exception ;
 	
-	// �Խ��� Page ó���� ���� ��üRow(totalCount)  return
+	// page return 을 위한것. 
 	public int getTotalCount(Search search) throws Exception ;
 	
 }
