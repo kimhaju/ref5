@@ -14,7 +14,7 @@ import com.model2.mvc.service.user.UserService;
 import com.model2.mvc.service.user.UserDao;;
 
 
-//==> È¸¿ø°ü¸® ¼­ºñ½º ±¸Çö
+//==> È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 @Service("userServiceImpl")
 public class UserServiceImpl implements UserService{
 	
@@ -37,11 +37,11 @@ public class UserServiceImpl implements UserService{
 		userDao.addUser(user);
 		
 		/*
-		System.out.println(">>>>1¹øÂ° insert");
+		System.out.println("1 insert");
 		userDao.addUser(user);
-		System.out.println("2¹øÂ° insert");
+		System.out.println("2 insert");
 		userDao.addUser(user);
-		System.out.println("Æ®·£Àè¼Ç ±â´É È®ÀÎ ");
+		System.out.println("transaction test ì™„ë£Œ  ");
 		*/
 	}
 
