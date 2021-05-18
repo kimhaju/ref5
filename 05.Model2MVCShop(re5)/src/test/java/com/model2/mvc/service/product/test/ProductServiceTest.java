@@ -96,7 +96,7 @@ public class ProductServiceTest {
 		List<Object> list = (List<Object>)map.get("list");
 	 	//Assert.assertEquals(3, list.size());
 	 	
-		System.out.println("product荑쇰━臾� 議고쉶 : "+list);
+		System.out.println("product 상품 리스트 : "+list);
 		
 		Integer totalCount = (Integer)map.get("totalCount");
 	 	System.out.println(totalCount);
