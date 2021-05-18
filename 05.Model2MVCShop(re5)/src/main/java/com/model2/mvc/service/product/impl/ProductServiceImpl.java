@@ -31,6 +31,17 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public void addProduct(Product product) throws Exception {
 		productDao.addProduct(product);
+		
+		/*
+		System.out.println("1번째 insert");
+		productDao.addProduct(product);
+		
+		System.out.println("2번째 insert");
+		productDao.addProduct(product);
+		
+		System.out.println("트랜잭션 기능 확인::-> 값이 하나라도 저장되면 안됨. ");
+		*/
+		// 위의 트랜잭션 문제없이 작동되는 것을 확인. 값이 하나라도 들어가지 않았다. 
 
 	}
 

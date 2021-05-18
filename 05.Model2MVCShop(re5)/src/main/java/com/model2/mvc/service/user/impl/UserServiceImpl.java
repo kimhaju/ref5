@@ -33,7 +33,16 @@ public class UserServiceImpl implements UserService{
 
 	///Method
 	public void addUser(User user) throws Exception {
+		
 		userDao.addUser(user);
+		
+		/*
+		System.out.println(">>>>1번째 insert");
+		userDao.addUser(user);
+		System.out.println("2번째 insert");
+		userDao.addUser(user);
+		System.out.println("트랜잭션 기능 확인 ");
+		*/
 	}
 
 	public User getUser(String userId) throws Exception {
